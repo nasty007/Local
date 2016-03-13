@@ -5,19 +5,27 @@
            fetch="git://github.com/" />
 
   <!--remove-->
+  <remove-project name="android_hardware_qcom_keymaster" />
+  <remove-project name="android_hardware_qcom_wlan" />
   <remove-project name="android_external_libnfc-nci" />
+  <remove-project name="android_packages_apps_Nfc" />
   
   <!-- G2 Devices -->
   <project path="device/lge/d802" name="nasty007/android_device_lge_d802" remote="git" revision="m-caf"/>
-  <project path="device/lge/g2-common" name="nobe1976/android_device_lge_g2-common" remote="git" revision="m-caf"/>
+  <project path="device/lge/g2-common" name="nasty007/android_device_lge_g2-common" remote="git" revision="m-caf"/>
 
   <!-- G2 Kernel -->
-  <project path="kernel/lge/msm8974" name="nobe1976/android_kernel_lge_msm8974" remote="git" revision="m-caf"/>
+  <project path="kernel/lge/msm8974" name="nasty007/android_kernel_lge_msm8974" remote="git" revision="m-caf2"/>
 
   <!-- Vendor -->
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="git" revision="cm-13.0"/>
   <!-- Needed Repos -->
   <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="git" revision="cm-13.0"/>
-  <project path="external/stlport" name="nobe1976/android_external_stlport" remote="git" revision="m-caf"/>
-  <project path="external/connectivity" name="nobe1976/android_external_connectivity" remote="git" revision="m-caf"/>
+  <project path="external/stlport" name="DirtyUnicorns/android_external_stlport" remote="git" revision="m-caf"/>
+  <project path="external/connectivity" name="DirtyUnicorns/android_external_connectivity" remote="git" revision="m-caf"/>
+  <project path="hardware/qcom/wlan" name="nasty007/android_hardware_qcom_wlan" remote="git" revision="m-caf"/>
+  <project path="packages/apps/Snap" name="DirtyUnicorns/android_packages_apps_Snap" remote="git" revision="m-caf"/>
+  <project path="hardware/qcom/keymaster" name="nasty007/android_hardware_qcom_keymaster" remote="git" revision="m-caf"/>
+  <project path="external/libnfc-nci" name="omnirom/android_external_libnfc-nci" remote="git" revision="android-6.0"/>
+  <project path="packages/apps/Nfc" name="omnirom/android_packages_apps_Nfc" remote="git" revision="android-6.0"/>
 </manifest>
