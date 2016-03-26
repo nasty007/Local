@@ -11,7 +11,13 @@
   <remove-project name="android_packages_apps_Nfc" />
   
   <!-- G2 Devices -->
+  <project path="device/lge/d800" name="nasty007/android_device_lge_d800" remote="git" revision="m-caf"/>
+  <project path="device/lge/d801" name="nasty007/android_device_lge_d801" remote="git" revision="m-caf"/>
   <project path="device/lge/d802" name="nasty007/android_device_lge_d802" remote="git" revision="m-caf"/>
+  <project path="device/lge/d803" name="nasty007/android_device_lge_d803" remote="git" revision="m-caf"/>
+  <project path="device/lge/f320" name="nasty007/android_device_lge_f320" remote="git" revision="m-caf"/>
+  <project path="device/lge/ls980" name="nasty007/android_device_lge_ls980" remote="git" revision="m-caf"/>
+  <project path="device/lge/vs980" name="nasty007/android_device_lge_vs980" remote="git" revision="m-caf"/>
   <project path="device/lge/g2-common" name="nasty007/android_device_lge_g2-common" remote="git" revision="m-caf"/>
 
   <!-- G2 Kernel -->
